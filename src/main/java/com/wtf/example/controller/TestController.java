@@ -21,11 +21,11 @@ public class TestController {
         return "index";
     }
 
-    @RequestMapping("test")
+    @RequestMapping("hello")
     @ResponseBody
     public String test() {
         log.info("hello111------------------");
-        return "hello";
+        return "hello world!";
     }
 
 }
