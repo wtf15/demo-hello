@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @desc
  */
 @Controller
-public class TestController {
-    public final static Logger log = LoggerFactory.getLogger(TestController.class);
+public class HelloController {
+    public final static Logger log = LoggerFactory.getLogger(HelloController.class);
 
     @RequestMapping("test1")
     public String hello() {
