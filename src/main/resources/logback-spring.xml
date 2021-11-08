@@ -4,7 +4,7 @@
     <contextName>Logback For git</contextName>
 
     <!-- 定义日志文件 输入位置 -->
-    <property name="LOG_HOME" value="/logs/learngit"/>
+    <property name="LOG_HOME" value="./logs/hello"/>
     <!-- 日志最大的历史 30天 -->
     <property name="maxHistory" value="30"/>
 
